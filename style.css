@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #d71920, #111111);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -7px;
+
+}
+
+h4{
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ font-weight: 300;
+}
+
+p{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 70px;
+    border-radius: 15px;
+    box-shadow: 0 2px 20px #00000055;
+    width: 350px;
+    height: 450px;
+}
+
+label{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    background-color: #d71920;
+    border: none;
+    border-radius: 8px;
+    color: #ffff;
+    font-size: 20px;
+    box-shadow: 0 2px 20px #00000055;
+    cursor: pointer;
+}
+
+a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #111111;
+    font-size: 20px;
+    background-color: #ccc;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #443e3e;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    color: #111111;
+    font-size: 20px;
+    background-color: #ccc;
+    border: 1px solid #443e3e;
+}
